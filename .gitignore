@@ -18,3 +18,5 @@ venv
 .csv
 .parquet
 .zip
+.pbf
+.osm
