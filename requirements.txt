@@ -1,0 +1,9 @@
+# visualization
+matplotlib
+seaborn
+# standard libs
+pandas
+numpy
+scipy
+# specific libs
+networkx
