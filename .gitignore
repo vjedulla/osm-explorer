@@ -20,3 +20,4 @@ venv
 .zip
 .pbf
 .osm
+osmconvert
