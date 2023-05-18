@@ -1,6 +1,7 @@
 import osmium as osm
 import pandas as pd
 
+from src import *
 
 
 class OSMHandler(osm.SimpleHandler):
@@ -71,5 +72,5 @@ df_osm = df_osm.sort_values(by=['type', 'id'])
 df_gr = pd.DataFrame(osmhandler.osm_graph_relations)
 
 
-df_osm.to_csv('../data/raw_extracted_nodes.csv')
-df_gr.to_csv('../data/raw_extracted_relations.csv')
+df_osm.to_csv(f'{BASE_DIR}/raw_extracted_nodes.csv')
+df_gr.to_csv(f'{BASE_DIR}/raw_extracted_relations.csv')
